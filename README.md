@@ -23,7 +23,7 @@
 - 下载 [iStyle Formatter](https://github.com/thomasrussellmurphy/istyle-verilog-formatter/releases) ，将其路径加入 `PATH` 或是随后在插件设置中指定路径。
 - 下载 [Verilator](https://www.veripool.org/projects/verilator/wiki/Installing) ，将其路径加入 `PATH` 或是随后在插件设置中指定路径。
 
-**注意**: 如果你是 Windows 用户且不熟悉 MinGW, 请直接使用 `executables` 中已编译好的 iStyle Formatter 和 Verilator。将它们解压到你想要放置的路径即可。
+**注意**: 如果你是 Windows 用户且不熟悉 MinGW, 请直接使用 `executables` 中已编译好的 iStyle Formatter 和 Verilator。将它们放到你想要放置的路径即可。
 
 
 
