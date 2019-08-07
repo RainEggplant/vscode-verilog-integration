@@ -1,4 +1,6 @@
 # VSCode Verilog Integration
+> 本教程的另一地址： https://www.raineggplant.com/vscode-verilog-integration.html
+
 本教程会介绍如何使用 VSCode 舒适地开发 Verilog。经过配置之后，你将得到：
 
 - 语法高亮
@@ -11,7 +13,7 @@
 - Git 版本控制
 - ...
 
-![VSCode 界面](images\VSCode-Verilog.png)
+![VSCode 界面](images/vscode-verilog.png)
 
 
 
@@ -49,7 +51,7 @@
 
     **注意**：此处推荐更改打开的 Verilog 工程文件夹的工作区配置，而不是全局的用户配置。
 
-    ![修改工作区配置](images\change-workspace-settings.png)
+    ![修改工作区配置](images/change-workspace-settings.png)
 
     你需要输入的配置是：
 
