@@ -32,7 +32,6 @@
 
 - [SystemVerilog - Language Support](https://marketplace.visualstudio.com/items?itemName=eirikpre.systemverilog)
 - [Verilog-formatter](https://marketplace.visualstudio.com/items?itemName=IsaacT.verilog-formatter)
-- [Save and Run Ext](https://marketplace.visualstudio.com/items?itemName=padjon.save-and-run-ext)
 
 安装后做如下设置：
 
@@ -47,6 +46,7 @@
   
 - SystemVerilog - Language Support
 
+  - 勾选 `Compile On Save` , 这将使得保存时自动编译，进行代码检查。
   - 设置运行 Verilator 的参数
 
     **注意**：此处推荐更改打开的 Verilog 工程文件夹的工作区配置，而不是全局的用户配置。
@@ -64,22 +64,6 @@
     ```shell
     "D:\Program Files\verilator\verilator" -sv --lint-only --language 1800-2012 --Wall -y "f:\example_project\src\designs"
     ```
-
-- Save and Run Ext
-
-  为了能够在每次保存时自动编译，进行代码检查，需要设置该插件。
-
-  在 `settings.json` 中添加如下代码：
-
-  ```json
-  "saveAndRunExt": {
-    "commands": [{
-      "match": "\\.(v|vh|sv|svh)$",
-      "isShellCommand": false,
-      "cmd": "systemverilog.compile"
-    }]
-  }
-  ```
 
 做到这一步，就大功告成了。下面给出一些参考资料和文档，以供进一步定制 VSCode 需要。
 
