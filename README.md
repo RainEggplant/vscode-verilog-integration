@@ -1,6 +1,14 @@
 # VSCode Verilog Integration
 > 本教程的另一地址： https://www.raineggplant.com/vscode-verilog-integration.html
 
+---
+
+**Update 20.08.11**
+
+[@duskmoon314](https://github.com/duskmoon314) 提供了一个更详细的使用说明，并且做了一些扩展。[点击查看](https://mp.weixin.qq.com/s/_Un7dbGjhJR90ILFQd-HrA)
+
+---
+
 本教程会介绍如何使用 VSCode 舒适地开发 Verilog。经过配置之后，你将得到：
 
 - 语法高亮
